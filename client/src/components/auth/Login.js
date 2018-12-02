@@ -6,7 +6,7 @@ export class Login extends Component {
     this.state = {
       email: "",
       password: "",
-      errors: []
+      errors: {}
     };
 
     this.onChange = this.onChange.bind(this);
@@ -23,9 +23,9 @@ export class Login extends Component {
     const user = {
       email: this.state.email,
       password: this.state.password
-    }
+    };
 
-    console.log(user)
+    console.log(user);
   }
 
   render() {
