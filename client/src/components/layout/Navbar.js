@@ -19,7 +19,7 @@ export class Navbar extends Component {
       <ul className="navbar-nav ml-auto">
         <li className="nav-item">
           <a
-            href=""
+            href="#"
             onClick={this.onLogoutClick.bind(this)}
             className="nav-link"
           >
