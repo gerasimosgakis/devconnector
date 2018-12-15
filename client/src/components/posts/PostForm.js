@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import TextAreaFieldGroup from "../common/TextAreaFieldGroup";
 import { addPost } from "../../actions/postActions";
-import { DH_CHECK_P_NOT_SAFE_PRIME } from "constants";
 
 class PostForm extends Component {
   constructor(props) {
